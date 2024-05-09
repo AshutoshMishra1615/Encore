@@ -1,0 +1,206 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 106px;
+    padding-right: 100px;
+}
+.hero .header{
+    display: flex;
+    height: 30%;
+    justify-content: center;
+    width: 100%;
+}
+.header .logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+
+    width: 50vw;
+    padding: 10px;
+    margin-left: 51px;
+}
+.header .nav-links{
+    display: flex;
+    color: #E5E7EB;
+    width: 50vw;
+    justify-content: center;
+}
+.header .nav-links ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+ul li,.text2{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+.header-2{
+    display: flex;
+    justify-content: center;
+}
+.image-text{
+    display: flex;
+
+
+    flex:auto;
+    width: 19vw;
+    padding: 80px;
+    flex-direction: column;
+
+    align-items: flex-start;
+    margin-left: -64px;
+    padding-right: 0px;
+    margin-right: 0px;
+    gap: 4px;
+}
+.image{
+    flex:auto;
+    width: 50vw;
+    padding-right: 68px;
+
+}
+.image img{
+    padding:50px;
+    width: 500px;
+    height: auto;
+    margin-left: 100px;
+}
+.text1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    
+}
+.sign button{
+    background-color: #3882f6;
+    border: 0 solid black;
+    border-radius: 6px;
+    padding: 4px;
+    padding-left: 18px;
+    color: #f9faf8;
+    margin-top: 10px;
+    font-size: 18px;
+    padding-right: 18px;
+}
+/*team css*/
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 10px;
+}
+.info{
+    font-size: 36px;
+    font-weight: 900 ;
+    color: #1F2937;
+    height: 30%;
+
+}
+.cardlink{
+    display: flex;
+    gap: 32px;
+    height: 74%;
+    width: 700px;
+    justify-content: center;
+}
+.cardimage{
+    width: 100%;
+    height: 100%;
+    border: #3882f6 solid 4px;
+    border-radius: 12px;
+}
+.card{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+
+}
+.cardimage img{
+    border-radius: 7px;
+}
+/*qoute section*/
+.qoutetab{
+    display: flex;
+    padding: 100px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.qoute{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.credit{
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 800;
+    color: #1F2937;
+    align-self: flex-end;
+}
+/*sign 2*/
+.sign-2{
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.sign-box{
+    display: flex;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 22px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 650px;
+}
+.sign-text{
+    width: 70%;
+    font-size: 20px;
+    padding: 20px;
+    color: #E5E7EB;
+
+}
+.signlogo{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+.signlogo button{
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    background-color: #3882f6;
+    padding: 6px;
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sign-text span{
+    font-style: bold;
+    color:#F9FAF8;
+    font-size: 30px;
+}
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
